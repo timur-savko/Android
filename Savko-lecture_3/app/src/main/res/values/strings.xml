@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My App</string>
+    <string name="name_field">Name</string>
+    <string name="subname_field">Subname</string>
+    <string name="send_button">Send</string>
+    <string name="land_orientation">Landscape orientation</string>
+</resources>

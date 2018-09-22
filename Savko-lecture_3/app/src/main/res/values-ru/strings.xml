@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Мое приложение</string>
+    <string name="name_field">Имя</string>
+    <string name="subname_field">Фамилия</string>
+    <string name="send_button">Отправить</string>
+    <string name="land_orientation">Ландшафтная ориентация</string>
+</resources>
