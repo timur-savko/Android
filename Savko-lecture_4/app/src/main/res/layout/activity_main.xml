@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:lineSpacingExtra="8sp"
+        android:paddingBottom="10sp"
+        android:paddingLeft="145sp"
+        android:paddingRight="130sp"
+        android:paddingTop="10sp"
+        android:text="Фрагменты (Lecture 4)"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/black"
+        android:onClick="Change"
+        android:text="Фрагмент номер один"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_dark"
+        android:onClick="Change"
+        android:text="фрагмент номер два"
+        android:textColor="@android:color/white" />
+
+    <fragment
+        android:id="@+id/fr_place"
+        android:name="com.example.akr19.fragment.FirstFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></fragment>
+
+</LinearLayout>
