@@ -1,0 +1,17 @@
+ <resources>
+    <string name="app_name">Search</string>
+     <string name="search">search</string>
+     <string-array name="nicknames">
+         <item>Савко</item>
+         <item>Семенович</item>
+         <item>Шавеко</item>
+         <item>Киселев</item>
+         <item>Богданович</item>
+         <item>Метельская</item>
+         <item>Комаровский</item>
+         <item>Станкевич</item>
+         <item>Федосов</item>
+         <item>Миругин</item>
+         <item>Утлик</item>
+     </string-array>
+</resources>
